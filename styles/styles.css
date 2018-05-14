@@ -30,6 +30,7 @@ a:visited{
     float: left;
     width:20%;
     height:inherit;
+    margin-left: 4px;
 }
 .contact p {
     font-size: 20px;
