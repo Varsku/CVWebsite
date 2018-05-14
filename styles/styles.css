@@ -1,0 +1,120 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height:100%;
+}
+a:visited{
+    color: darkblue;
+}
+
+.header {
+    background-color: black;
+    background:url("./images/NY1.jpg") 50% / cover;
+    height:60%;
+}
+.header .container {
+    width:30%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.header h1 {
+    margin:0;
+    padding:0;
+    color:white;
+    text-shadow: 3px 2px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contact {
+    color:white;
+    float: left;
+    width:20%;
+    height:inherit;
+}
+.contact p {
+    font-size: 20px;
+    float:center;
+    width:20px;
+}
+.contact img {
+    float:left;
+    width:40px; 
+    height:40px;
+    margin: 5px;
+}
+.contact td {
+    float: left;
+}
+.headerImage {
+    height: 60%;
+    width: 60%;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+}
+
+.parts {
+    color: white;
+    background-color: rgb(63, 62, 62);
+    text-align:center;
+    padding:50px 80px;
+    text-align: justify;
+}
+.parts h1 {
+    text-align: center;
+}
+.partsWhite h1 {
+    text-align: center;
+}
+.partsWhite {
+    color: rgb(61, 60, 60);
+    background: transparent;
+    background-color:white;
+    text-align:center;
+    padding:50px 80px;
+    text-align: justify;
+}
+
+.parallax1, .parallax2, .parallax3 {
+    padding:0;
+    margin:0;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.paraText {
+    position: absolute;
+    top: 50%;
+    left:0;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.paraText span.border {
+    background-color: darkgray;
+    color: white;
+    font-size: 24px;  
+    letter-spacing: 10px;
+}
+.parallax1 {
+    background-image: url("./images/Website-Design-Background.png");
+    min-height: 700px;
+}
+
+.parallax2 {
+    background-image: url("./images/web-design-packages-background.jpg");
+    height: 600px; 
+}
+.parallax3 {
+    background-image: url("./images/tid33797-mountain-001-hero.jpg");
+    height: 600px;
+}
+
+
+.footer {
+    padding: 1em;
+    text-align: center;
+    background-color: #aaa;
+}
