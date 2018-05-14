@@ -10,7 +10,7 @@ a:visited{
 .header {
     background-color: black;
     background:url("./images/NY1.jpg") 50% / cover;
-    height:60%;
+    height:50%;
 }
 .header .container {
     width:30%;
